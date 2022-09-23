@@ -22,6 +22,7 @@
 body {
     background-color: var(--main-background-color);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
 }
 
 /* Section */
@@ -38,6 +39,11 @@ body {
 /* Logo */
 .logo {
     color: var(--blue-logo-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .logo-black {
@@ -49,15 +55,25 @@ body {
 }
 
 /* site navigation */
+
 .site-nav .link, 
 .site-contacts .link {
     color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
 }
 
 .site-nav .link:hover,
 .site-contacts .link:hover,
 .site-nav .link:focus,
 .site-contacts .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
     color: var(--accent-color);
 }
 
@@ -70,12 +86,19 @@ body {
 
 .hero-title {
     color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero .button {
     background-color: var(--blue-color);
     color: var(--white-color);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 /* features */
@@ -83,10 +106,12 @@ body {
 .feature-list .title {
     color: var(--secondary-text-color);
 }
+
 /* filter button list */
 
 .filter-list .button {
     background-color: var(--gray-color-100);
+    cursor: pointer;
 }
 
 .filter-list .button:hover,
