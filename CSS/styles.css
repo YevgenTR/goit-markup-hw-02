@@ -23,7 +23,9 @@ body {
     background-color: var(--main-background-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    
 }
+
 
 /* Section */
 
@@ -33,6 +35,11 @@ body {
 
 .section-title {
     color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 
@@ -44,6 +51,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .logo-black {
@@ -55,6 +63,10 @@ body {
 }
 
 /* site navigation */
+
+.link {
+    text-decoration: none;
+}
 
 .site-nav .link, 
 .site-contacts .link {
@@ -88,8 +100,7 @@ body {
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
-    text-align: center;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -97,6 +108,7 @@ body {
 .hero .button {
     background-color: var(--blue-color);
     color: var(--white-color);
+    font-family: inherit;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -105,13 +117,52 @@ body {
 
 .feature-list .title {
     color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
+
+.feature-list .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* team */
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+}
+
+/* сторінка портфоліо */
 
 /* filter button list */
 
 .filter-list .button {
-    background-color: var(--gray-color-100);
+    background-color: var(--secondary-background-color);
+    border: none;
+    border-radius: 4px;
+
     cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .filter-list .button:hover,
@@ -120,11 +171,47 @@ body {
     color: var(--white-color);
 }
 
+/* Портфоліо */
+
+.portfolio .link {
+    text-decoration: none;
+}
+
+.portfolio-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.portfolio-name,
+.portolio-text {
+    text-decoration: none;
+}
 
 /* footer */
 
 .footer {
     background-color: var(--footer-background-color);
+}
+
+.adress, 
+.contact {
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .footer .adress {
